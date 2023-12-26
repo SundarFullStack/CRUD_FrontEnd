@@ -1,0 +1,25 @@
+.table{
+    margin-top:50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.table th{
+    text-align: center
+}
+#edit_btn{
+    margin-right: 5px;
+    margin-left: 10px;
+
+}
+#delete_btn{
+    margin-right: -40px;
+}
+#create_btn{
+    margin-bottom: -39px;
+    margin-top: 36px;
+}
+#edit_btn{
+
+    
+
+}
