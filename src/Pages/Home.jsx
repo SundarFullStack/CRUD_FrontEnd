@@ -28,7 +28,7 @@ function home() {
     try {
 
 
-      const res = await Axios.delete(`http://localhost:5000/delete/${id}`);
+      const res = await Axios.delete(`https://crud-backend-tlbi.onrender.com/delete/${id}`);
 
       // console.log("res",res)
       

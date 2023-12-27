@@ -32,7 +32,7 @@ function Create() {
 
         // console.log("UserData",rollno,name,email,password,mobileno)
 
-        const res = await axios.post("http://localhost:5000/create", {
+        const res = await axios.post("https://crud-backend-tlbi.onrender.com/create", {
           rollno,name,email,password,mobileno,dob
         })
 

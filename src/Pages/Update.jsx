@@ -44,7 +44,7 @@ function update() {
       }
       else {
         
-        const res = await Axios.put(`http://localhost:5000/update/${id}`, {
+        const res = await Axios.put(`https://crud-backend-tlbi.onrender.com/update/${id}`, {
           rollno, name, email, password, mobileno,dob
         })
 

@@ -10,7 +10,7 @@ function Data() {
 
     useEffect(() => {
 
-        Axios.get("http://localhost:5000/select").then(result => {
+        Axios.get("https://crud-backend-tlbi.onrender.com/select").then(result => {
             if (result && result.data) {
                 // console.log("result", result.data)
                 setCrudData(result.data.userList)
